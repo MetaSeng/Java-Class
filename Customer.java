@@ -3,6 +3,7 @@ public class Customer {
     char gender; // M or F
     String phoneNumber;
     String address;
+    String description;
 
     public Customer(String userName, char gender, String phoneNumber, String address) {
         this.userName = userName;
